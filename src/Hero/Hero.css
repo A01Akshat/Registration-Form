@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    position: fixed;
+    width: 46rem;
+    height: 45rem;
+    mix-blend-mode: multiply;
+}
+
+.imgTxt {
+    position: fixed;
+    width: 25rem;
+    height: 8rem;
+    padding-left: 5rem;
+    padding-top: 16rem;
+    padding-bottom: 10rem;
+
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .img {
+        
+        width: 30rem;
+        height: 15rem;
+        mix-blend-mode: multiply;
+    }
+
+    .imgTxt {
+       
+        padding-top: 110px;
+        padding-left: 20px;
+        width: 30rem;
+        height: 15rem;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 546px) {
+    .img {
+        position: fixed;
+        width: 48rem;
+        height: 72rem;
+        mix-blend-mode: multiply;
+    }
+
+    .imgTxt {
+
+        padding-top: 460px;
+        padding-left: 90px;
+        width: 30rem;
+        height: 15rem;
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 547px) and (max-width: 612px) {
+    .img {
+        position: fixed;
+        width: 48rem;
+        height: 72rem;
+        mix-blend-mode: multiply;
+    }
+
+    .imgTxt {
+
+        padding-top: 460px;
+        padding-left: 90px;
+        width: 30rem;
+        height: 15rem;
+        font-size: 1.87rem;
+    }
+
+}
+
+@media (min-width: 612px) and (max-width: 768px) {
+    .img {
+       
+        width: 48rem;
+        height: 72rem;
+        
+    }
+
+    .imgTxt {
+
+        padding-top: 22.5rem;
+        padding-left: 5.62rem;
+        width: 30rem;
+        height: 15rem;
+        font-size: 1.87rem;
+    }
+}

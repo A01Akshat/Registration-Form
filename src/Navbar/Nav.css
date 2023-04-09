@@ -1,0 +1,29 @@
+.registrationNavbar {
+  position: fixed;
+  width: 80rem;
+  height: 3rem;
+  background: rgba(203, 203, 203, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+.header {
+  position: fixed;
+  width: 2.5rem;
+  height: 1.25rem;
+  left: 3.68rem;
+  top: 0.81rem;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 0.93rem;
+  background: linear-gradient(89.62deg, #0070C5 -4.27%, #3BABCF 110.15%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo {
+  position: fixed;
+  width: 1.75rem;
+  height: 1.53rem;
+  left: 1.18rem;
+  top: 0.68rem;
+}

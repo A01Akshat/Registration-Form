@@ -1,0 +1,203 @@
+.cont {
+    position: relative;
+    margin-left: 51.8rem;
+    margin-right: 5.0rem;
+    margin-bottom: 80px;
+    margin-right: 20px;
+   
+}
+
+.form {
+    padding-top: 91px;
+    padding-right: 271px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #3B61CF;
+    font-size: 14px;
+}
+
+.vector {
+    margin-top: -10px;
+}
+
+.name {
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.inp1 {
+    width: 355px;
+    height: 35px;
+    margin-top: 5px;
+    background: #E1EDFF;
+    border: 1px solid #286FD9;
+    border-radius: 5px;
+}
+
+.inp1::placeholder {
+    padding-left: 9px;
+    top: 157px;
+    color: #8F8F8F;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.txtarea {
+    margin-top: 5px;
+    width: 355px;
+    height: 115px;
+    background: #E1EDFF;
+    border: 1px solid #286FD9;
+    border-radius: 5px;
+}
+
+.roll {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.yr {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.br {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.kiitem {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.perem {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.phn {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ln {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.git {
+    margin-top: 10px;
+    padding-left: 6px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.form2 {
+    padding-top: 21px;
+    padding-right: 271px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #3B61CF;
+    font-size: 14px;
+}
+
+.form3 {
+    padding-top: 21px;
+    padding-right: 271px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #3B61CF;
+    font-size: 14px;
+}
+
+.txtarea::placeholder {
+    padding-top: 5px;
+    padding-left: 9px;
+    top: 157px;
+    color: #8F8F8F;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-left: 120px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #3EB2FD;
+    background: linear-gradient(98.63deg, #3B61CF 3.76%, #3BABCF 114.18%);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Segoe UI';
+    padding: 6px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .cont {
+        position: relative;
+        margin-top: 0.12rem;
+        margin-left: 1.8rem;
+        margin-bottom: 5rem;
+        margin-right: 5rem;
+
+    }
+
+    .form {
+        margin-top: 10.25rem;
+
+        margin-right: 26px;
+
+        font-family: 'Segoe UI';
+        font-weight: 600;
+        color: #3B61CF;
+        font-size: 0.87rem;
+        mix-blend-mode: multiply;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px)
+{}
